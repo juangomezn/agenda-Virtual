@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(images/mano-usando-cuaderno-mapa-computadora-abstracto-holograma-iconos-digitales-sobre-fondo-azul-concepto-almacenamiento-datos-computacion-nube_670147-58150.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 90px 90px 190px 100px;
+    grid-template-rows: 30px 30px 30px 30px 30px 30px 30px;
+}
+
+.item{
+    display: grid;
+    background-color: rgba(166, 188, 248, 0.466); 
+    color: white;
+    padding-left: 10px;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.item-titulo{
+    display: grid;
+    color: rgb(0, 0, 153);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 10px;
+    align-items: center;
+    background-color: rgba(240, 255, 255, 0.705);
+}
+.register{
+    display: grid;
+    background-color: rgba(166, 188, 248, 0.466); 
+    color: white;
+    text-align: right;
+    font-size: small;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+    padding-right: 7px;
+}
+
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 102);
+}
